@@ -10,15 +10,15 @@ import SectionSix from "@/components/sectionSix/SectionSix";
 export default function Home() {
   return (
     <body className={styles.body}>
+      <Navbar />
       <main className={styles.main}>
-        <Navbar />
         <SectionOne />
         <SectionTwo />
         <SectionThree />
         <SectionFour />
-        <SectionSix />
-        <Footer />
+        <SectionSix />{" "}
       </main>
+      <Footer />
     </body>
   );
 }
