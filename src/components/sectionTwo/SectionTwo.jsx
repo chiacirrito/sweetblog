@@ -7,6 +7,7 @@ const SectionTwo = () => {
     <div className={styles.Container}>
       <div className={styles.div}>
         <a href="https://www.giallozafferano.it/ricerca-ricette/muffin/">
+          <h4>Muffin</h4>
           <RiCake3Line className={styles.icon} />
         </a>
       </div>

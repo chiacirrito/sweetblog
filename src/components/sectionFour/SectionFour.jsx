@@ -7,6 +7,7 @@ const SectionFour = () => {
     <div className={styles.Container}>
       <div className={styles.div}>
         <a href="https://www.giallozafferano.it/ricerca-ricette/le+migliori+ricette+di+cupcake+golosi/">
+          <h4>Cupcake</h4>
           <GiCupcake className={styles.icon} />
         </a>
       </div>

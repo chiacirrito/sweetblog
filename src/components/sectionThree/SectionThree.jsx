@@ -7,6 +7,7 @@ const SectionThree = () => {
     <div className={styles.Container}>
       <div className={styles.div}>
         <a href="https://www.giallozafferano.it/ricerca-ricette/plumcake+le+migliori+ricette/">
+          <h4>Plumcake</h4>
           <BiCake className={styles.icon} />
         </a>
       </div>

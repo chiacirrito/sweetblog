@@ -7,6 +7,7 @@ const SectionOne = () => {
     <div className={styles.Container}>
       <div className={styles.div}>
         <a href="https://www.giallozafferano.it/ricette-cat/Dolci-e-Desserts/Cheesecakes/">
+          <h4>Cheesecake</h4>
           <GiCakeSlice className={styles.icon} />
         </a>
       </div>

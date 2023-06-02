@@ -7,6 +7,7 @@ const SectionSix = () => {
     <div className={styles.Container}>
       <div className={styles.div}>
         <a href="https://www.giallozafferano.it/ricerca-ricette/cookies/">
+          <h4>Cookies</h4>
           <RxCookie className={styles.icon} />
         </a>
       </div>
