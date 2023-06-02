@@ -9,8 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "mdb-react-ui-kit": "^6.0.0",
     "next": "13.4.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.4",
+    "react-css-modules": "^4.7.11",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "sass": "^1.62.1"
   }
 }

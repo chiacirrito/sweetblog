@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Fjalla+One&family=Raleway:wght@300;400&display=swap");
+
+.Navbar {
+  width: 100%;
+
+  .li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 20pt;
+    color: #8cb369;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform: rotate(-3deg);
+  }
+  @keyframes example {
+    0% {
+      color: #8cb369;
+    }
+    25% {
+      color: #7ea25f;
+    }
+    50% {
+      color: #749557;
+    }
+    75% {
+      color: #68854e;
+    }
+    100% {
+      color: #627c49d2;
+    }
+  }
+}

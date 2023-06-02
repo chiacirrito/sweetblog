@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Fjalla+One&family=Raleway:wght@300;400&display=swap");
+
+.Container {
+  .div {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px;
+
+    .icon {
+      font-size: 25pt;
+      color: #516a3c;
+      text-shadow: 0.5px 0.4px 0.4px rgba(0, 0, 0, 0.63);
+    }
+  }
+  .section {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main {
+      display: flex;
+      gap: 10px;
+
+      .divMuffin {
+        box-shadow: 1px 1px 1px 1px #516a3c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+      }
+
+      .img {
+        object-fit: cover;
+      }
+
+      .titolo {
+        width: 96%;
+        background-color: rgba(255, 255, 255, 0.563);
+        padding: 3px 4px;
+        font-size: 15pt;
+        font-family: "Dancing Script", cursive;
+        text-shadow: 0.5px 0.4px 0.4px rgba(0, 0, 0, 0.63);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    .main {
+      display: flex;
+      overflow: hidden;
+      overflow-x: scroll;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .h4 {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .h4 {
+      display: none;
+    }
+  }
+}
+@media screen and (min-width: 1350px) {
+  .Container {
+    .div {
+      padding: 0 100px;
+
+      .icon {
+        font-size: 35pt;
+        color: #516a3c;
+        text-shadow: 0.5px 0.4px 0.4px rgba(0, 0, 0, 0.63);
+      }
+      .icon:hover {
+        color: #6c904f;
+        cursor: pointer;
+      }
+    }
+    .section {
+      .main {
+        .h4 {
+          position: absolute;
+          top: 65%;
+          display: block;
+          opacity: 0;
+        }
+        a:hover {
+          .img {
+            opacity: 0.6;
+          }
+          .h4 {
+            color: black;
+            opacity: 1;
+            font-size: 15pt;
+            font-family: "Dancing Script", cursive;
+            text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.277);
+          }
+        }
+      }
+    }
+  }
+}
