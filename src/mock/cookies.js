@@ -30,7 +30,7 @@ export const cookies = [
   {
     id: 5,
     img: "https://www.giallozafferano.it/images/31-3173/Chocolate-crackle-cookies_780x520_wm.jpg",
-    titolo: "Crankle cookies",
+    titolo: "Crankle",
     link: "https://ricette.giallozafferano.it/Chocolate-crackle-cookies.html",
     text: "Leggi la ricetta",
   },
